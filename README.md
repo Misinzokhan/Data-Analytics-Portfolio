@@ -21,7 +21,9 @@ Analysis of retail sales data to identify trends and profitability.
 
 ## Dashboard
 
-(Add screenshots here)
+<img width="1177" height="668" alt="Screenshot 2026-02-25 201520" src="https://github.com/user-attachments/assets/f7ca5087-64df-48b6-b980-5bbffe368992" />
+
+
 
 ## Files
 
