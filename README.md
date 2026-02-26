@@ -25,6 +25,7 @@ Analysis of retail sales data to identify trends and profitability.
 
 
 
+
 ## Files
 
 - [SalesDB.sql](https://github.com/user-attachments/files/25567943/SalesDB.sql)
