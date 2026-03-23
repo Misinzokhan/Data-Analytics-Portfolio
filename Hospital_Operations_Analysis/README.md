@@ -1,4 +1,3 @@
-![Hospital Operations Analysis](visuals/dashboard_overview.png)
 
 # 🏥 Hospital Operations Analysis
 
@@ -11,19 +10,19 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Hospitals operate in complex environments where balancing **cost efficiency**, **service quality**, and **patient satisfaction** is critical — yet operational data is often underutilised.
 
 This project presents a comprehensive analysis of hospital operational data across multiple departments, applying data science techniques to transform raw records into strategic insights that support:
 
-- 🔧 Resource optimization
-- 📊 Performance monitoring
-- 🗺️ Strategic planning
+- Resource optimization
+- Performance monitoring
+- Strategic planning
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 | # | Objective |
 |---|-----------|
@@ -34,7 +33,7 @@ This project presents a comprehensive analysis of hospital operational data acro
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 | Attribute | Detail |
 |-----------|--------|
@@ -48,16 +47,16 @@ This project presents a comprehensive analysis of hospital operational data acro
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
-| 🐍 Python (pandas, matplotlib, seaborn) | Data ingestion, cleaning, EDA |
-| 📊 Microsoft Power BI | Interactive dashboard & visualisation |
+| Python (pandas, matplotlib, seaborn) | Data ingestion, cleaning, EDA |
+| Microsoft Power BI | Interactive dashboard & visualisation |
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ### Step 1 — Data Import
 Data was ingested from CSV files using **pandas** and tables were verified for structure and integrity.
@@ -90,62 +89,69 @@ Ten key analytical questions explored:
 
 ---
 
-## 📊 EDA Visuals
+## EDA Visuals
 
 ### Revenue by Department
-![Revenue by Department](visuals/revenue_by_department.png)
+<img width="1000" height="500" alt="revenue_by_department" src="https://github.com/user-attachments/assets/f7e0ccde-639e-4c4d-8731-d46128b7fb56" />
+
 
 ### Average Waiting Time by Department
-![Waiting Time by Department](visuals/waiting_time_by_department.png)
+<img width="1000" height="500" alt="waiting_time_by_department" src="https://github.com/user-attachments/assets/a35b79fe-0681-4a3d-81a1-86ee97348e48" />
+
 
 ### Revenue Trend Over Time
-![Revenue Trend](visuals/revenue_trend.png)
+<img width="1200" height="500" alt="revenue_trend" src="https://github.com/user-attachments/assets/0dd7a174-0f95-4dbb-a6ca-9aecc0742404" />
+
 
 ### Total Profit by Department
-![Profit by Department](visuals/profit_by_department.png)
+<img width="1000" height="500" alt="profit_by_department" src="https://github.com/user-attachments/assets/9d169827-a459-4667-b471-38c6356717d7" />
+
 
 ### Revenue by Service Type
-![Revenue by Service Type](visuals/revenue_by_service.png)
+<img width="800" height="400" alt="revenue_by_service" src="https://github.com/user-attachments/assets/e8dca0a8-f549-45e5-8260-866da796e0be" />
+
 
 ### Satisfaction Score by Department
-![Satisfaction by Department](visuals/satisfaction_by_department.png)
+<img width="800" height="500" alt="satisfaction_by_department" src="https://github.com/user-attachments/assets/4a82fbe3-cc39-4072-ac13-1032e0b7ab00" />
+
 
 ### Waiting Time vs. Satisfaction Score
-![Waiting Time vs Satisfaction](visuals/waiting_vs_satisfaction.png)
+<img width="800" height="500" alt="waiting_vs_satisfaction" src="https://github.com/user-attachments/assets/bfe9c56b-0863-4ce9-bdcd-a264fa9f87ea" />
+
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 An interactive dashboard was built in Microsoft Power BI featuring:
 
-- 📌 **KPI Cards** — Revenue, Cost, Profit, Waiting Time, Satisfaction Score
-- 📊 Revenue by Department
-- 💰 Profit by Department
-- 📈 Revenue Trend over Time
-- ⏱️ Average Waiting Time by Department
-- 👥 Patients Handled per Department
-- 🔽 Interactive Filters
+- **KPI Cards** — Revenue, Cost, Profit, Waiting Time, Satisfaction Score
+- Revenue by Department
+- Profit by Department
+- Revenue Trend over Time
+- Average Waiting Time by Department
+- Patients Handled per Department
+- Interactive Filters
 
 ### Dashboard Preview
+<img width="1191" height="719" alt="Screenshot 2026-03-23 121707" src="https://github.com/user-attachments/assets/6a37f648-b157-4e19-bdd8-43fbadf552db" />
 
-![Hospital Operations Dashboard](visuals/dashboard_overview.png)
-
----
-
-## 💡 Key Insights
-
-> **The hospital performs strongly financially but faces operational inefficiencies that directly impact patient satisfaction.**
-
-- 📈 **Strong overall profitability** — the **Technology category** produced the highest profit
-- ⏱️ **Waiting time is the #1 bottleneck** — directly drives down patient satisfaction scores
-- 🔬 **Radiology shows cost inefficiency** — similar revenue to peers but significantly lower profit
-- ⚖️ **Balanced patient distribution reduces risk** — but high-volume departments need optimisation
-- 📅 **Seasonal revenue patterns identified** — useful for proactive staffing and forecasting
 
 ---
 
-## ✅ Recommendations
+## Key Insights
+- The hospital maintains strong profitability despite operational inefficiencies, indicating high revenue potential.
+- Waiting time is the key operational bottleneck, directly impacting patient satisfaction.
+- Departments like Radiology show lower profitability despite similar revenue, highlighting cost inefficiencies.
+- Balanced patient distribution reduces risk, but high-volume departments require optimization. 
+- Revenue trends reveal seasonal demand patterns, useful for forecasting and staffing decisions.
+
+
+ revenue patterns identified** — useful for proactive staffing and forecasting
+
+---
+
+## Recommendations
 
 1. **Optimise staffing** in high-wait-time departments
 2. Implement **queue management or appointment scheduling systems**
@@ -155,7 +161,7 @@ An interactive dashboard was built in Microsoft Power BI featuring:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This project highlights the gap between **financial performance** and **operational efficiency** in hospital management. While the organisation performs well financially, inefficiencies in patient flow and service delivery negatively affect patient experience.
 
@@ -194,11 +200,7 @@ hospital-operations-analysis/
 
 ## 👤 Author
 
-**[Your Name]**
-📧 [your.email@example.com]
-🔗 [LinkedIn Profile URL](https://linkedin.com)
-🌐 [Portfolio Website](https://yourwebsite.com)
+**David J Misinzo**
+davidmisinzo9@gmail.com
 
 ---
-
-*⭐ If you found this project useful, feel free to star the repository!*
