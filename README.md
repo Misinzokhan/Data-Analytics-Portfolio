@@ -1,26 +1,26 @@
-# 👋 Hi, I'm [Your Name]
+# 👋 Hi, I'm David John Misinzo
 
-### Data Analyst | Python · SQL · Power BI
+### Data Analyst |  Microsoft Excel · Python · SQL · Power BI 
 
 I transform raw data into clear, actionable insights that support better decision-making. This portfolio showcases real-world data analysis projects across healthcare and business sales domains.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/david-misinzo-981594238)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:davidmisinzo9@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2ea44f?style=flat-square)](https://yourwebsite.com)
 
 ---
 
-## 🛠️ Skills & Tools
+## Skills & Tools
 
 | Category | Tools |
 |----------|-------|
 | Languages | Python (pandas, matplotlib, seaborn), SQL |
-| Visualisation | Microsoft Power BI |
+| Visualisation | Microsoft Power BI | Microsoft Excel |
 | Workflow | Data Cleaning · EDA · Feature Engineering · Dashboard Design |
 
 ---
 
-## 📂 Projects
+##  Projects
 
 ---
 
@@ -28,7 +28,8 @@ I transform raw data into clear, actionable insights that support better decisio
 
 > Analysing 5,000 hospital records to uncover insights on financial performance, operational efficiency, and patient satisfaction.
 
-![Hospital Dashboard](hospital-operations-analysis/visuals/dashboard_overview.png)
+<img width="1191" height="719" alt="Screenshot 2026-03-23 121707" src="https://github.com/user-attachments/assets/1342ace7-6b5b-4dc7-a098-ac897dc7a0c0" />
+
 
 | Detail | Info |
 |--------|------|
@@ -38,12 +39,14 @@ I transform raw data into clear, actionable insights that support better decisio
 | **Skills** | EDA, Feature Engineering, Dashboard Design |
 
 **Key Findings:**
-- 💰 Technology department generated the highest profit
-- ⏱️ Waiting time is the primary driver of low patient satisfaction
-- 🔬 Radiology shows cost inefficiencies despite strong revenue
-- 📅 Seasonal revenue patterns identified for staffing planning
+- The hospital maintains strong profitability despite operational inefficiencies, indicating high revenue potential.
+- Waiting time is the key operational bottleneck, directly impacting patient satisfaction.
+- Departments like Radiology show lower profitability despite similar revenue, highlighting cost inefficiencies.
+- Balanced patient distribution reduces risk, but high-volume departments require optimization. 
+- Revenue trends reveal seasonal demand patterns, useful for forecasting and staffing decisions.
 
-📁 **[View Project →](./hospital-operations-analysis/)**
+
+📁 **[View Project →](https://github.com/Misinzokhan/Data-Analytics-Portfolio/tree/main/Hospital_Operations_Analysis)**
 
 ---
 
