@@ -79,7 +79,7 @@ I transform raw data into clear, actionable insights that support better decisio
 
 ---
 
-## 📬 Get in Touch
+## Get in Touch
 
 I'm open to data analyst opportunities and collaborations. Feel free to reach out!
 
