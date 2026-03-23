@@ -1,4 +1,4 @@
-# 👋 Hi, I'm David John Misinzo
+# Hi, I'm David John Misinzo
 
 ### Data Analyst |  Microsoft Excel · Python · SQL · Power BI 
 
@@ -54,44 +54,28 @@ I transform raw data into clear, actionable insights that support better decisio
 
 > Exploring sales data to identify revenue trends, top-performing products, and opportunities for business growth.
 
-![Sales Dashboard](sales-business-analysis/visuals/dashboard_overview.png)
+<img width="1191" height="719" alt="image" src="https://github.com/user-attachments/assets/8da8fce3-f793-4ed3-968b-260188241218" />
+
 
 | Detail | Info |
 |--------|------|
-| **Tools** | Python, Power BI |
+| **Tools** | MySQL, Power BI |
 | **Domain** | Business / Sales |
 | **Skills** | EDA, Trend Analysis, Dashboard Design |
 
 **Key Findings:**
-- 📈 [Add your top finding here]
-- 🏆 [Add your second finding here]
-- 📉 [Add your third finding here]
+- The West region generated the highest sales.
+- Technology category produced the highest profit.
+- some sub-categories generated negative profit.
+- Sales increased toward the end of the year.
+- Office Supplies had consistent sales performance.
 
-📁 **[View Project →](./sales-business-analysis/)**
+
+**[View Project →](./sales-business-analysis/)**
 
 ---
 
-## 📁 Repository Structure
 
-```
-[your-github-username]/
-│
-├── hospital-operations-analysis/
-│   ├── data/
-│   ├── notebooks/
-│   ├── dashboard/
-│   ├── visuals/
-│   └── README.md
-│
-├── sales-business-analysis/
-│   ├── data/
-│   ├── notebooks/
-│   ├── dashboard/
-│   ├── visuals/
-│   └── README.md
-│
-└── README.md                ← You are here (portfolio landing page)
-```
 
 ---
 
@@ -99,9 +83,9 @@ I transform raw data into clear, actionable insights that support better decisio
 
 I'm open to data analyst opportunities and collaborations. Feel free to reach out!
 
-- 📧 [your.email@example.com](mailto:your.email@example.com)
-- 🔗 [LinkedIn](https://linkedin.com)
-- 🌐 [Portfolio Website](https://yourwebsite.com)
+- 📧 [davidmisinzo9@gmail.com](mailto:davidmisinzo9:gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/david-misinzo-981594238)
+- 🌐 [Portfolio Website](https://github.com/Misinzokhan/Data-Analytics-Portfolio)
 
 ---
 
