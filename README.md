@@ -50,7 +50,7 @@ I transform raw data into clear, actionable insights that support better decisio
 
 ---
 
-### 📦 02 — Sales Business Analysis
+###  02 — Sales Business Analysis
 
 > Exploring sales data to identify revenue trends, top-performing products, and opportunities for business growth.
 
