@@ -6,7 +6,7 @@ I transform raw data into clear, actionable insights that support better decisio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/david-misinzo-981594238)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:davidmisinzo9@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2ea44f?style=flat-square)](https://yourwebsite.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-2ea44f?style=flat-square)](https://github.com/Misinzokhan/Data-Analytics-Portfolio))
 
 ---
 
