@@ -1,1 +1,119 @@
+# 🏥 Hospital Operations Analysis
+
+## 📌 Project Overview
+
+Hospitals operate in complex environments where balancing cost efficiency, service quality, and patient satisfaction is critical. However, operational data is often underutilized.
+
+This project analyzes hospital operational data to evaluate performance, efficiency, and patient experience across departments, transforming raw data into actionable insights for decision-making.
+
+---
+
+## 🎯 Objectives
+
+* Improve **financial performance** (revenue vs cost efficiency)
+* Enhance **operational efficiency** (patient handling & waiting time)
+* Optimize **service quality** (patient satisfaction levels)
+* Derive new metrics such as **profit (Revenue - Cost)**
+
+---
+
+## 📂 Dataset
+
+* **Size:** 5,000 records
+* **Type:** Hospital operational data
+
+### Data Categories:
+
+* **Administrative:** Record ID, Date, Department, Employee ID
+* **Demographic:** Gender, Age
+* **Service:** Service Type, Patients Handled
+* **Financial:** Revenue, Cost
+* **Performance:** Waiting Time, Satisfaction Score
+
+---
+
+## 🧹 Data Cleaning
+
+* Removed missing values
+* Eliminated duplicates
+* Verified data types
+* Standardized column names
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Key analyses performed:
+
+* Revenue by department
+* Profit by department *(Revenue - Cost)*
+* Patients handled per department
+* Average waiting time per department
+* Top 5 employees by patient volume
+* Revenue by service type
+* Top 3 most profitable service types
+* Patient satisfaction by department
+* Waiting time vs satisfaction relationship
+
+---
+
+## 📈 Key Insights
+
+* The hospital maintains **strong profitability**, indicating high revenue potential despite inefficiencies
+* **Waiting time is the primary operational bottleneck**, directly reducing patient satisfaction
+* Some departments (e.g., Radiology) show **low profitability due to high costs**, not low revenue
+* High-volume departments require optimization to prevent service degradation
+* **Seasonal revenue patterns** suggest opportunities for better resource planning
+
+---
+
+## 📊 Dashboard (Power BI)
+
+An interactive dashboard was built using **Microsoft Power BI** featuring:
+
+* KPI Cards (Revenue, Cost, Profit, Waiting Time, Satisfaction Score)
+* Revenue & Profit by Department
+* Revenue Trends Over Time
+* Patient Distribution by Department
+* Interactive Filters for deeper analysis
+
+---
+
+## 💡 Recommendations
+
+* Optimize staffing in high-wait-time departments
+* Implement queue management / appointment systems
+* Conduct cost optimization in low-profit departments
+* Use seasonal trends for forecasting and planning
+* Improve patient experience to increase satisfaction
+
+---
+
+## 🛠 Tools & Technologies
+
+* Python (Pandas)
+* Microsoft Power BI
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install pandas
+jupyter notebook
+```
+
+---
+
+## 📄 Full Report
+
+For detailed documentation, see the full report in the `/docs` folder.
+
+---
+
+## ✅ Conclusion
+
+The analysis reveals a gap between **financial success and operational efficiency**. While revenue performance is strong, inefficiencies in patient flow negatively impact service quality.
+
+This project demonstrates how data analytics can support **strategic decision-making and operational improvement in healthcare systems**.
 
