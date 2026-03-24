@@ -173,7 +173,7 @@ The insights generated provide a foundation for targeted improvements — demons
 
 ---
 
-## 👤 Author
+## Author
 
 **David J Misinzo**
 - 📧 [davidmisinzo9@gmail.com](mailto:davidmisinzo9:gmail.com)
