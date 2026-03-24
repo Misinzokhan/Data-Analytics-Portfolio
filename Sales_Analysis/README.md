@@ -168,7 +168,6 @@ The project showcases practical data analyst skills including **SQL querying, da
 
 ---
 
-```
 
 ---
 
