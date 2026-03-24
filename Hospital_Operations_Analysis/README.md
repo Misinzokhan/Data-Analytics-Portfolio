@@ -147,7 +147,6 @@ An interactive dashboard was built in Microsoft Power BI featuring:
 - Revenue trends reveal seasonal demand patterns, useful for forecasting and staffing decisions.
 
 
- revenue patterns identified** — useful for proactive staffing and forecasting
 
 ---
 
