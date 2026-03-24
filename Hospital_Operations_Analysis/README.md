@@ -169,32 +169,7 @@ The insights generated provide a foundation for targeted improvements — demons
 
 ---
 
-## 📁 Repository Structure
 
-```
-hospital-operations-analysis/
-│
-├── data/
-│   └── hospital_operations.csv        # Raw dataset
-│
-├── notebooks/
-│   └── hospital_analysis.ipynb        # Full Python EDA notebook
-│
-├── dashboard/
-│   └── hospital_dashboard.pbix        # Power BI dashboard file
-│
-├── visuals/
-│   ├── dashboard_overview.png
-│   ├── revenue_by_department.png
-│   ├── waiting_time_by_department.png
-│   ├── revenue_trend.png
-│   ├── profit_by_department.png
-│   ├── revenue_by_service.png
-│   ├── satisfaction_by_department.png
-│   └── waiting_vs_satisfaction.png
-│
-└── README.md
-```
 
 ---
 
