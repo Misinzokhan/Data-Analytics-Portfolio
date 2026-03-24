@@ -134,7 +134,7 @@ An interactive dashboard was built in **Microsoft Power BI** featuring:
 
 ### Dashboard Preview
 
-![Superstore Sales Dashboard]<img width="1177" height="723" alt="dashboard_overview" src="https://github.com/user-attachments/assets/650949cf-d332-4c65-94ab-e2a40c906654" />
+<img width="1177" height="723" alt="dashboard_overview" src="https://github.com/user-attachments/assets/650949cf-d332-4c65-94ab-e2a40c906654" />
 
 
 ---
