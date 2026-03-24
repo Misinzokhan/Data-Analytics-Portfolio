@@ -1,4 +1,4 @@
-![Superstore Sales Dashboard](visuals/dashboard_overview.png)
+
 
 # Superstore Sales Analysis
 
