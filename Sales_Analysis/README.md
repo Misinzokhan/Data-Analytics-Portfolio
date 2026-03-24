@@ -1,6 +1,6 @@
 ![Superstore Sales Dashboard](visuals/dashboard_overview.png)
 
-# 📦 Superstore Sales Analysis
+# Superstore Sales Analysis
 
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyses retail sales data from the **Superstore dataset** to understand sales performance, profitability, and customer trends. The analysis was performed using **SQL** for data extraction and querying, and **Power BI** for interactive visualisation.
 
@@ -19,7 +19,7 @@ The goal was to transform raw sales data into meaningful business insights that 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 | # | Objective |
 |---|-----------|
@@ -32,7 +32,7 @@ The goal was to transform raw sales data into meaningful business insights that 
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 | Attribute | Detail |
 |-----------|--------|
@@ -46,17 +46,17 @@ The goal was to transform raw sales data into meaningful business insights that 
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
-| 🗄️ MySQL | Data storage and querying |
-| 🔍 SQL | Data analysis |
-| 📊 Microsoft Power BI | Interactive dashboard & visualisation |
+| MySQL | Data storage and querying |
+| SQL | Data analysis |
+| Microsoft Power BI | Interactive dashboard & visualisation |
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ### Step 1 — Data Import
 - Superstore dataset imported into a **MySQL database**
@@ -88,74 +88,70 @@ Eight key business questions answered with SQL:
 **Total Sales & Profit:**
 ```sql
 SELECT 
-    ROUND(SUM(sales), 2) AS total_sales,
-    ROUND(SUM(profit), 2) AS total_profit
-FROM superstore;
+    ROUND(SUM(Sales), 2) AS Total_Sales,
+    ROUND(SUM(Profit), 2) AS Total_Profit
+FROM salesdb.superstore;
 ```
 
 **Sales by Region:**
 ```sql
-SELECT 
-    region,
-    ROUND(SUM(sales), 2) AS total_sales
-FROM superstore
-GROUP BY region
-ORDER BY total_sales DESC;
+SELECT Region, ROUND(SUM(Sales),2) AS Total_Sales
+FROM salesdb.superstore
+GROUP BY Region
+ORDER BY Total_Sales DESC;
 ```
 
 **Top Selling Products:**
 ```sql
-SELECT 
-    product_name,
-    ROUND(SUM(sales), 2) AS total_sales
-FROM superstore
-GROUP BY product_name
-ORDER BY total_sales DESC
+SELECT `Product Name`, ROUND(SUM(Sales),2) AS Total_Sales
+FROM salesdb.superstore
+GROUP BY `Product Name`
+ORDER BY Total_Sales DESC
 LIMIT 10;
 ```
 
 **Monthly Sales Trend:**
 ```sql
-SELECT 
-    DATE_FORMAT(order_date, '%Y-%m') AS month,
-    ROUND(SUM(sales), 2) AS monthly_sales
-FROM superstore
-GROUP BY month
-ORDER BY month;
+SELECT MONTH (`Order Date`) AS Month ,
+ROUND(SUM(Sales),2) AS Total_Sales
+FROM salesdb.superstore
+GROUP BY `Month`
+ORDER BY `Month`;
 ```
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 An interactive dashboard was built in **Microsoft Power BI** featuring:
 
-- 📌 **KPI Cards** — Sales, Profit, Profit Margin, Orders, Customers
-- 📈 Sales Trend Analysis
-- 🏷️ Category Performance
-- 🗺️ Regional Sales Analysis
-- 💰 Profit Analysis
-- 🔽 Interactive Filters
+- **KPI Cards** — Sales, Profit, Profit Margin, Orders, Customers
+- Sales Trend Analysis
+- Category Performance
+- Regional Sales Analysis
+- Profit Analysis
+- Interactive Filters
 
 ### Dashboard Preview
 
-![Superstore Sales Dashboard](visuals/dashboard_overview.png)
+![Superstore Sales Dashboard]<img width="1177" height="723" alt="dashboard_overview" src="https://github.com/user-attachments/assets/650949cf-d332-4c65-94ab-e2a40c906654" />
+
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 > **The West region leads in sales, Technology drives profit, but some sub-categories are actively losing money.**
 
-- 🌍 **West region generated the highest sales** across all regions
-- 💻 **Technology category produced the highest profit** overall
-- 📉 **Some sub-categories generated negative profit** — requiring urgent pricing review
-- 📅 **Sales increased toward end of year** — indicating strong seasonal demand in Q4
-- 🖊️ **Office Supplies showed consistent sales performance** throughout the year
+- **West region generated the highest sales** across all regions
+- **Technology category produced the highest profit** overall
+- **Some sub-categories generated negative profit** — requiring urgent pricing review
+- **Sales increased toward end of year** — indicating strong seasonal demand in Q4
+- **Office Supplies showed consistent sales performance** throughout the year
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 1. **Focus on profitable categories** — prioritise Technology and Office Supplies in marketing spend
 2. **Optimise regional sales** — boost campaigns in underperforming regions
@@ -164,7 +160,7 @@ An interactive dashboard was built in **Microsoft Power BI** featuring:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This project demonstrates the ability to transform raw retail data into actionable business insights using **SQL and Power BI**. The interactive dashboard allows stakeholders to explore sales performance and profitability across different dimensions.
 
@@ -172,39 +168,16 @@ The project showcases practical data analyst skills including **SQL querying, da
 
 ---
 
-## 📁 Repository Structure
-
-```
-superstore-sales-analysis/
-│
-├── data/
-│   └── superstore.csv               # Raw dataset (from Kaggle)
-│
-├── sql/
-│   └── superstore_analysis.sql      # All SQL queries
-│
-├── dashboard/
-│   └── superstore_dashboard.pbix    # Power BI dashboard file
-│
-├── visuals/
-│   ├── dashboard_overview.png
-│   ├── sales_by_region.png
-│   ├── sales_by_category.png
-│   ├── top_products.png
-│   └── monthly_trend.png
-│
-└── README.md
 ```
 
 ---
 
-## 👤 Author
+## Author
 
-**[Your Name]**
-📧 [your.email@example.com](mailto:your.email@example.com)
-🔗 [LinkedIn Profile](https://linkedin.com)
-🌐 [Portfolio Website](https://yourwebsite.com)
+**David J Misinzo**
+📧 davidmisinzo9@gmail.com(mailto:davidmisinzo9@gmail.com.com)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/david-misinzo-981594238)
+🌐 [Portfolio Website]((https://github.com/Misinzokhan/Data-Analytics-Portfolio))
 
 ---
 
-*⭐ If you found this project useful, feel free to star the repository!*
