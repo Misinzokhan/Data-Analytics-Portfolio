@@ -71,7 +71,7 @@ I transform raw data into clear, actionable insights that support better decisio
 - Office Supplies had consistent sales performance.
 
 
-**[View Project →](https://github.com/Misinzokhan/Data-Analytics-Portfolio/tree/main/Sales_Analysis))**
+**[View Project →](https://github.com/Misinzokhan/Data-Analytics-Portfolio/tree/main/Sales_Analysis)**
 
 ---
 
