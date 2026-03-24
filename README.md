@@ -46,7 +46,7 @@ I transform raw data into clear, actionable insights that support better decisio
 - Revenue trends reveal seasonal demand patterns, useful for forecasting and staffing decisions.
 
 
-📁 **[View Project →](https://github.com/Misinzokhan/Data-Analytics-Portfolio/tree/main/Hospital_Operations_Analysis)**
+ **[View Project →](https://github.com/Misinzokhan/Data-Analytics-Portfolio/tree/main/Hospital_Operations_Analysis)**
 
 ---
 
@@ -71,7 +71,7 @@ I transform raw data into clear, actionable insights that support better decisio
 - Office Supplies had consistent sales performance.
 
 
-**[View Project →](./sales-business-analysis/)**
+**[View Project →](https://github.com/Misinzokhan/Data-Analytics-Portfolio/tree/main/Sales_Analysis))**
 
 ---
 
