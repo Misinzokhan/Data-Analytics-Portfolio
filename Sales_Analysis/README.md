@@ -174,9 +174,8 @@ The project showcases practical data analyst skills including **SQL querying, da
 ## Author
 
 **David J Misinzo**
-📧 davidmisinzo9@gmail.com(mailto:davidmisinzo9@gmail.com.com)
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/david-misinzo-981594238)
-🌐 [Portfolio Website]((https://github.com/Misinzokhan/Data-Analytics-Portfolio))
-
+- 📧 [davidmisinzo9@gmail.com](mailto:davidmisinzo9:gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/david-misinzo-981594238)
+- 🌐 [Portfolio Website](https://github.com/Misinzokhan/Data-Analytics-Portfolio)
 ---
 
